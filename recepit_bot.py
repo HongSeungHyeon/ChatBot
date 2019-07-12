@@ -14,8 +14,8 @@ from slack.web.classes.elements import *
 from slack.web.classes.interactions import MessageInteractiveEvent
 from string import punctuation
 
-SLACK_TOKEN = "xoxb-678184422995-689247136644-X9ecrFTsWbO1mLo0EDHalaET"
-SLACK_SIGNING_SECRET = "a6eff6de6372507fbcd48e899b04352e"
+SLACK_TOKEN = "
+SLACK_SIGNING_SECRET = 
 app = Flask(__name__)
 # /listening 으로 슬랙 이벤트를 받습니다.
 slack_events_adaptor = SlackEventAdapter(SLACK_SIGNING_SECRET, "/listening", app)
